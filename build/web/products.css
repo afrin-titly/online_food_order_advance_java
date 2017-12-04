@@ -1,0 +1,245 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image:url("images/wall.jpg");
+	
+}
+
+
+#header
+{
+    width:100%;
+    height:100px;
+    background-image:url("images/br1.jpg");
+	
+}
+
+#menu
+{
+    width:50%;
+    height:100px;
+    background-color:transparent;
+    float:right;
+   
+}
+
+ ul 
+{
+list-style: none;
+padding: 0px;
+
+margin: 0px;
+
+}
+ul li 
+{
+display: block;
+
+position: relative;
+float: right;
+
+
+}
+li ul
+ {
+
+display: none;
+
+}
+ul li a
+{
+
+display: block;
+background:transparent;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+white-space: nowrap;
+color: crimson;
+font-size: 18px;
+}
+ul li a:hover 
+{
+background: rosybrown;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: white;}
+  li:hover li a:hover {background: rosybrown;}
+  #drop-nav li ul li {border-top: 0px;
+}
+
+
+
+#logo
+{
+    width:50%;
+    height:100px;
+    background-color:transparent;
+    float:left;
+	
+}
+
+#logo img
+{
+    width:65%;
+    height:100px;
+    float:left;
+        
+}
+
+#icons1
+{
+    width:30%;
+    height:40px;
+    background-color:transparent;
+    float:right;
+    
+}
+
+#icons1 img 
+{
+    width:35px;
+    height:35px;
+       float:right;
+}
+
+ ol 
+{
+list-style: none;
+padding: 0px;
+
+margin: 0px;
+
+}
+ol li 
+{
+display: block;
+
+position: relative;
+float: right;
+
+
+}
+
+li ol
+ {
+
+display: none;
+
+}
+ol li a
+{
+
+display: block;
+background: #000;
+
+text-decoration: none;
+white-space: nowrap;
+
+
+}
+
+
+
+#content
+{
+    width:100%;
+    height:1000px;
+   
+    
+}
+
+#c1
+{
+   width:25%;
+    height:400px;
+    background-image:url("images/brx.jpg");
+    float:left;
+    margin-left:100px;
+    margin-top:150px;
+    text-align: center;
+    color: gold;
+    font-family:cursive;
+	box-shadow: 0px 8px 20px 0px rgba(5,5,5,5.5);
+}
+
+#c1 img 
+{
+    width:100%;
+    height:400px;
+}
+
+#c2
+{
+      width:25%;
+    height:400px;
+    background-image:url("images/brx.jpg");
+    float:left;
+    margin-left:100px;
+    margin-top:300px;
+     text-align: center;
+    color:gold;
+    font-family:cursive;
+	box-shadow: 0px 8px 20px 0px rgba(5,5,5,5.5);
+        
+}
+
+#c2 img 
+{
+    width:100%;
+    height:400px;
+}
+
+#c3
+{
+      width:25%;
+    height:400px;
+    background-image:url("images/brx.jpg");
+    margin-left:100px;
+    margin-top:150px;
+    float:left;
+     text-align: center;
+    color:gold;
+    font-family:cursive;
+	box-shadow: 0px 8px 20px 0px rgba(5,5,5,5.5);
+	
+}
+
+#c3 img 
+{
+    width:100%;
+    height:400px;
+}
+#icon2
+{
+    width:30%;
+    height:40px;
+    background-color:transparent;
+    float:right;
+    text-align: left;
+    color:gold;
+    
+}
+
+#icon2 img 
+{
+    width:40px;
+    height:40px;
+       float:right;
+}
+
+#footer
+{
+    width:100%;
+    height:50px;
+    background-color:darkred;
+    margin-top:60px;
+	text-align:center;
+	color:rosybrown;
+    font-size:14px;
+}

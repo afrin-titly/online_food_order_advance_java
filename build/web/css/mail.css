@@ -1,0 +1,224 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image:url("images/wall.jpg");
+	
+}
+
+
+#header
+{
+    width:100%;
+    height:100px;
+    background-image:url("images/br1.jpg");
+	
+}
+
+#menu
+{
+    width:50%;
+    height:100px;
+    background-color:transparent;
+    float:right;
+   
+}
+
+ ul 
+{
+list-style: none;
+padding: 0px;
+
+margin: 0px;
+
+}
+ul li 
+{
+display: block;
+
+position: relative;
+float: right;
+
+
+}
+li ul
+ {
+
+display: none;
+
+}
+ul li a
+{
+
+display: block;
+background:transparent;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+white-space: nowrap;
+color: crimson;
+font-size: 18px;
+}
+ul li a:hover 
+{
+background: rosybrown;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: white;}
+  li:hover li a:hover {background: rosybrown;}
+  #drop-nav li ul li {border-top: 0px;
+}
+
+
+
+#logo
+{
+    width:50%;
+    height:100px;
+    background-color:transparent;
+    float:left;
+	
+}
+
+#logo img
+{
+    width:65%;
+    height:100px;
+    float:left;
+        
+}
+
+#icons1
+{
+    width:30%;
+    height:40px;
+    background-color:transparent;
+    float:right;
+    
+}
+
+#icons1 img 
+{
+    width:35px;
+    height:35px;
+       float:right;
+}
+
+ ol 
+{
+list-style: none;
+padding: 0px;
+
+margin: 0px;
+
+}
+ol li 
+{
+display: block;
+
+position: relative;
+float: right;
+
+
+}
+
+li ol
+ {
+
+display: none;
+
+}
+ol li a
+{
+
+display: block;
+background: #000;
+
+text-decoration: none;
+white-space: nowrap;
+
+
+}
+
+
+
+#content
+{
+    width:100%;
+    height:800px;
+  background-color:transparent;
+	background-size:100%;
+	text-align:center;
+	
+    
+}
+
+
+
+#icon2
+{
+    width:30%;
+    height:40px;
+    background-color:transparent;
+    float:right;
+    text-align: left;
+    color:gold;
+    
+}
+
+#icon2 img 
+{
+    width:40px;
+    height:40px;
+       float:right;
+}
+
+#footer
+{
+    width:100%;
+    height:50px;
+    background-color:darkred;
+    margin-top:60px;
+	text-align:center;
+	color:rosybrown;
+    font-size:14px;
+}
+
+#c1
+{
+	width:65%;
+	height:500px;
+	background-image:url("images/b3.jpg");
+	float:left;
+	margin-top:100px;
+	margin-left:250px;
+	box-shadow: 0px 8px 20px 0px rgba(5,5,5,5.5);
+	text-align:center;
+}
+
+#c2
+{
+	width:50%;
+	height:500px;
+	background-image:url("images/b3.jpg");
+	float:left;
+		margin-top:100px;
+	box-shadow: 0px 8px 20px 0px rgba(5,5,5,5.5);
+	  text-align:center;
+	  font-size:32px;
+	  color:crimson;
+	  font-family:cursive;
+	  margin-left:350px;
+                  
+}
+
+#c2 img
+{
+	width:200px;
+	height:200px;
+	
+}
